@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>HSJ 接口文档与调试</title>
+  <link rel="stylesheet" href="/vendor/swagger-ui/swagger-ui.css">
+  <link rel="stylesheet" href="/docs.css">
+  <script src="/vendor/swagger-ui/swagger-ui-bundle.js" defer></script>
+  <script src="/docs.js" defer></script>
+</head>
+<body>
+  <header class="docs-header">
+    <a href="/">返回分析工作台</a>
+    <h1>接口文档与调试</h1>
+    <button id="docs-session" type="button">刷新本机会话</button>
+    <output id="docs-status" role="status" aria-live="polite">正在连接本机服务…</output>
+  </header>
+  <section class="docs-guide" aria-label="使用说明">
+    <p>展开接口 → 点击 <b>Try it out</b> → 填写参数 → 点击 <b>Execute</b> 执行。页面会自动连接当前本机会话，也可通过 <b>Authorize</b> 手动填写令牌。</p>
+    <p>先用 <b>文件 → 读取会话和文件列表</b> 查看文件 ID，再用 <b>读取文件与工况通道信息</b> 查询索引；工况和通道都从 0 开始。示例中的 file_id 可替换为你的文件 ID。</p>
+    <p>这里调用实际接口：分析会执行计算，导入和导出会生成文件。<a href="/api/schema" target="_blank" rel="noopener">查看 OpenAPI 定义</a></p>
+  </section>
+  <main id="swagger-ui"></main>
+  <noscript>请启用 JavaScript 后使用接口调试页面。</noscript>
+</body>
+</html>

@@ -1,0 +1,2446 @@
+{
+  "scope": "sample SEL metadata and read-only channel summary; not health labels or numerical-equivalence validation",
+  "files": [
+    {
+      "file": "测试系统实例\\wavesel1.SEL",
+      "sha256": "46ab085b1748f90ce3c7acf65228fc1d6589ccb75e105bf851091eaf655ddd64",
+      "exam": "机组试验",
+      "key_index": 4,
+      "velocity_index": 0,
+      "channels": [
+        {
+          "index": 0,
+          "id": 0,
+          "name": "键相信号",
+          "unit": "um",
+          "sample_rate": 20480,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 1,
+          "id": 1,
+          "name": "下导摆度",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 20,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 2,
+          "id": 2,
+          "name": "水导摆度",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 20,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 3,
+          "id": 3,
+          "name": "转速",
+          "unit": "转速",
+          "sample_rate": 20480,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 4,
+          "id": 4,
+          "name": "键相",
+          "unit": "键相",
+          "sample_rate": 20480,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        }
+      ],
+      "conditions": [
+        {
+          "index": 0,
+          "type": "变负荷",
+          "name": "键相信号( 12.26um)",
+          "sort_code": 0,
+          "begin_timestamp": 1703188593,
+          "end_timestamp": 1703188630,
+          "reference_channel_id": 0,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 757760,
+              "duration_s": 37.0,
+              "mean": -0.545820172483213,
+              "std": 6.795630772503372,
+              "min": -9.99908447265625,
+              "max": 9.998779296875,
+              "key_phase_count": 7
+            },
+            {
+              "channel": 1,
+              "count": 37888,
+              "duration_s": 37.0,
+              "mean": -1.1567503303258737,
+              "std": 13.543116054982487,
+              "min": -19.9951171875,
+              "max": 19.9969482421875,
+              "key_phase_count": 7
+            },
+            {
+              "channel": 2,
+              "count": 37888,
+              "duration_s": 37.0,
+              "mean": -1.215402619370375,
+              "std": 13.496164064311571,
+              "min": -19.9981689453125,
+              "max": 19.9957275390625,
+              "key_phase_count": 7
+            },
+            {
+              "channel": 3,
+              "count": 757760,
+              "duration_s": 37.0,
+              "mean": 12.28705697446256,
+              "std": 0.7555254862440509,
+              "min": 11.254190444946289,
+              "max": 12.853153228759766,
+              "key_phase_count": 7
+            },
+            {
+              "channel": 4,
+              "count": 757760,
+              "duration_s": 37.0,
+              "mean": 0.5565588048986486,
+              "std": 91.92001176928197,
+              "min": 0.0,
+              "max": 16304.0,
+              "key_phase_count": 7
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "type": "变负荷",
+          "name": "键相信号( 12.19um)",
+          "sort_code": 1,
+          "begin_timestamp": 1703188650,
+          "end_timestamp": 1703188690,
+          "reference_channel_id": 0,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 819200,
+              "duration_s": 40.0,
+              "mean": 0.0001544697469125822,
+              "std": 6.861071777151206,
+              "min": -9.99969482421875,
+              "max": 9.99969482421875,
+              "key_phase_count": 8
+            },
+            {
+              "channel": 1,
+              "count": 40960,
+              "duration_s": 40.0,
+              "mean": 5.154769860382658e-06,
+              "std": 13.721065696552937,
+              "min": -19.986572265625,
+              "max": 19.9847412109375,
+              "key_phase_count": 8
+            },
+            {
+              "channel": 2,
+              "count": 40960,
+              "duration_s": 40.0,
+              "mean": 0.0005948742117652728,
+              "std": 13.721484019719258,
+              "min": -19.99755859375,
+              "max": 19.9908447265625,
+              "key_phase_count": 8
+            },
+            {
+              "channel": 3,
+              "count": 819200,
+              "duration_s": 40.0,
+              "mean": 12.210163879394532,
+              "std": 0.7768950225836112,
+              "min": 11.255221366882324,
+              "max": 12.85059928894043,
+              "key_phase_count": 8
+            },
+            {
+              "channel": 4,
+              "count": 819200,
+              "duration_s": 40.0,
+              "mean": 0.5245703125,
+              "std": 88.59946535142048,
+              "min": 0.0,
+              "max": 16254.0,
+              "key_phase_count": 8
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "type": "变负荷",
+          "name": "键相信号( 12.22um)",
+          "sort_code": 2,
+          "begin_timestamp": 1703188728,
+          "end_timestamp": 1703188788,
+          "reference_channel_id": 0,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 1228800,
+              "duration_s": 60.0,
+              "mean": 4.389286499038765e-06,
+              "std": 6.860467461802613,
+              "min": -9.99969482421875,
+              "max": 9.99969482421875,
+              "key_phase_count": 12
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 6.187992185004986e-05,
+              "std": 13.723128558696027,
+              "min": -19.9920654296875,
+              "max": 19.9908447265625,
+              "key_phase_count": 12
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -0.0010337455631088232,
+              "std": 13.720582248070748,
+              "min": -19.9945068359375,
+              "max": 19.996337890625,
+              "key_phase_count": 12
+            },
+            {
+              "channel": 3,
+              "count": 1228800,
+              "duration_s": 60.0,
+              "mean": 12.210239760080974,
+              "std": 0.776045879927063,
+              "min": 11.251716613769531,
+              "max": 12.849255561828613,
+              "key_phase_count": 12
+            },
+            {
+              "channel": 4,
+              "count": 1228800,
+              "duration_s": 60.0,
+              "mean": 0.5272200520833333,
+              "std": 88.9274900921802,
+              "min": 0.0,
+              "max": 16350.0,
+              "key_phase_count": 12
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "测试系统实例\\数据\\TEST1.SEL",
+      "sha256": "68b9b6a3b0cd834f72a0360a983d74807d3b6ff23ec99c058ef3ccca0b805be6",
+      "exam": "机组试验",
+      "key_index": 9,
+      "velocity_index": 0,
+      "channels": [
+        {
+          "index": 0,
+          "id": 7,
+          "name": "备用1振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 1,
+          "id": 20,
+          "name": "备用2振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 2,
+          "id": 21,
+          "name": "备用3振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 3,
+          "id": 22,
+          "name": "备用4振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 4,
+          "id": 23,
+          "name": "备用5振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 5,
+          "id": 16,
+          "name": "电流励磁",
+          "unit": "A",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 6,
+          "id": 17,
+          "name": "电压励磁",
+          "unit": "V",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 7,
+          "id": 14,
+          "name": "顶盖压力脉动",
+          "unit": "kPa",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 8,
+          "id": 6,
+          "name": "定子压板Z向振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 9,
+          "id": 24,
+          "name": "键相",
+          "unit": "No.",
+          "sample_rate": 8192,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 10,
+          "id": 8,
+          "name": "上导X向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 11,
+          "id": 9,
+          "name": "上导Y向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 12,
+          "id": 0,
+          "name": "上机架X向振动",
+          "unit": "μm",
+          "sample_rate": 512,
+          "fft_enabled": true,
+          "divisor": 5,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 13,
+          "id": 1,
+          "name": "上机架Y向振动",
+          "unit": "μm",
+          "sample_rate": 512,
+          "fft_enabled": true,
+          "divisor": 5,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 14,
+          "id": 2,
+          "name": "上机架Z向振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 15,
+          "id": 12,
+          "name": "水导X向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 16,
+          "id": 13,
+          "name": "水导Y向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 17,
+          "id": 5,
+          "name": "水导Z向振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 18,
+          "id": 15,
+          "name": "尾水压力脉动",
+          "unit": "kPa",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 19,
+          "id": 19,
+          "name": "无功功率",
+          "unit": "MVar",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 20,
+          "id": 10,
+          "name": "下导X向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 21,
+          "id": 11,
+          "name": "下导Y向摆度",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 22,
+          "id": 3,
+          "name": "下机架X向振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 23,
+          "id": 4,
+          "name": "下机架Z向振动",
+          "unit": "μm",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 24,
+          "id": 18,
+          "name": "有功功率",
+          "unit": "MW",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 4,
+          "a": 0.0,
+          "b": 0.0
+        }
+      ],
+      "conditions": [
+        {
+          "index": 0,
+          "type": "变负荷",
+          "name": "备用1振动(  0.66μm)",
+          "sort_code": 0,
+          "begin_timestamp": 1257625958,
+          "end_timestamp": 1257625988,
+          "reference_channel_id": 7,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617331604213,
+              "std": 216.77727955277422,
+              "min": -392.28466796875,
+              "max": 517.4149169921875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 1,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616824766916,
+              "std": 422.20325041735765,
+              "min": -723.3425903320312,
+              "max": 948.8660888671875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 2,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616626517839,
+              "std": 438.1886570937826,
+              "min": -979.544189453125,
+              "max": 845.2792358398438,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 3,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616646907952,
+              "std": 454.1900767235856,
+              "min": -940.2949829101562,
+              "max": 936.8551635742188,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 4,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "min": 0.0,
+              "max": 0.0,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 5,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617883020997,
+              "std": 358.4063429998306,
+              "min": -776.5527954101562,
+              "max": 734.1893920898438,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 6,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617431287712,
+              "std": 374.33000025642133,
+              "min": -806.063232421875,
+              "max": 764.2346801757812,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 7,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617578371498,
+              "std": 326.6412379371747,
+              "min": -523.0731201171875,
+              "max": 773.3364868164062,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 8,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617705069567,
+              "std": 201.38365397131778,
+              "min": -448.5132751464844,
+              "max": 422.2411804199219,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 9,
+              "count": 245760,
+              "duration_s": 30.0,
+              "mean": 147.18821614844103,
+              "std": 1300.6592555029852,
+              "min": 0.0,
+              "max": 16256.0,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 10,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616901824765,
+              "std": 232.27791538964303,
+              "min": -370.67864990234375,
+              "max": 565.8543090820312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 11,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617754551157,
+              "std": 247.86210115299866,
+              "min": -581.3347778320312,
+              "max": 428.8320007324219,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 12,
+              "count": 15360,
+              "duration_s": 30.0,
+              "mean": 0.656166743180908,
+              "std": 113.61284818050274,
+              "min": -250.80047607421875,
+              "max": 253.4251708984375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 13,
+              "count": 15360,
+              "duration_s": 30.0,
+              "mean": 0.6561667078553607,
+              "std": 127.30300425708889,
+              "min": -248.06881713867188,
+              "max": 306.2631530761719,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 14,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617235646913,
+              "std": 141.53405598755154,
+              "min": -240.79806518554688,
+              "max": 348.924072265625,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 15,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617227730065,
+              "std": 294.99669458471845,
+              "min": -676.751220703125,
+              "max": 574.3226318359375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 16,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.660861738828953,
+              "std": 310.8000966132225,
+              "min": -532.5782470703125,
+              "max": 713.9754028320312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 17,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616940778727,
+              "std": 186.11951516045403,
+              "min": -391.0416259765625,
+              "max": 420.15350341796875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 18,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617181261555,
+              "std": 342.5092809149627,
+              "min": -787.803466796875,
+              "max": 608.3561401367188,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 19,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616841626523,
+              "std": 406.227731029939,
+              "min": -660.5081787109375,
+              "max": 947.9578247070312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 20,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608618068371205,
+              "std": 263.51739756324633,
+              "min": -608.6798095703125,
+              "max": 516.9210205078125,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 21,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617664432131,
+              "std": 279.2340843088066,
+              "min": -591.9021606445312,
+              "max": 595.3052978515625,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 22,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617163424166,
+              "std": 156.13540793195773,
+              "min": -391.2945251464844,
+              "max": 238.92254638671875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 23,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617902693671,
+              "std": 171.0189334316546,
+              "min": -415.22314453125,
+              "max": 311.95977783203125,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 24,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617393091815,
+              "std": 390.26949696565987,
+              "min": -886.2295532226562,
+              "max": 690.9798583984375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "type": "变负荷",
+          "name": "备用1振动1(  0.66μm)",
+          "sort_code": 1,
+          "begin_timestamp": 1257626222,
+          "end_timestamp": 1257626252,
+          "reference_channel_id": 7,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617350987364,
+              "std": 217.18724494073382,
+              "min": -392.28466796875,
+              "max": 517.4149169921875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 1,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.660861672517846,
+              "std": 422.5668828967167,
+              "min": -723.3425903320312,
+              "max": 948.8660888671875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 2,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616235620653,
+              "std": 438.5503696284771,
+              "min": -979.544189453125,
+              "max": 845.2792358398438,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 3,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616643614369,
+              "std": 454.54999506113757,
+              "min": -940.2949829101562,
+              "max": 936.8551635742188,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 4,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.0,
+              "std": 0.0,
+              "min": 0.0,
+              "max": 0.0,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 5,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617771242886,
+              "std": 358.77919906229937,
+              "min": -776.5527954101562,
+              "max": 734.1893920898438,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 6,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.660861758798031,
+              "std": 374.70028282937545,
+              "min": -806.063232421875,
+              "max": 764.2346801757812,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 7,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617530194958,
+              "std": 327.01990613409686,
+              "min": -523.0731201171875,
+              "max": 773.3364868164062,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 8,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617509103776,
+              "std": 201.80025395062654,
+              "min": -448.5132751464844,
+              "max": 422.2411804199219,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 9,
+              "count": 245760,
+              "duration_s": 30.0,
+              "mean": 147.18821614844103,
+              "std": 1300.6592555029852,
+              "min": 0.0,
+              "max": 16256.0,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 10,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616844211307,
+              "std": 232.68193863803435,
+              "min": -370.67864990234375,
+              "max": 565.8543090820312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 11,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617701089846,
+              "std": 248.26078754500682,
+              "min": -581.3347778320312,
+              "max": 428.8320007324219,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 12,
+              "count": 15360,
+              "duration_s": 30.0,
+              "mean": 0.6561667479907253,
+              "std": 114.08848672180756,
+              "min": -250.80047607421875,
+              "max": 253.4251708984375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 13,
+              "count": 15360,
+              "duration_s": 30.0,
+              "mean": 0.6561667115433011,
+              "std": 127.766557368614,
+              "min": -248.06881713867188,
+              "max": 306.2631530761719,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 14,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617199424771,
+              "std": 141.98619051242062,
+              "min": -240.79806518554688,
+              "max": 348.924072265625,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 15,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.660861711569972,
+              "std": 295.38226250253524,
+              "min": -676.751220703125,
+              "max": 574.3226318359375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 16,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617474330155,
+              "std": 311.1820621774652,
+              "min": -532.5782470703125,
+              "max": 713.9754028320312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 17,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616937252312,
+              "std": 186.5435506569841,
+              "min": -391.0416259765625,
+              "max": 420.15350341796875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 18,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617146940863,
+              "std": 342.88492233714294,
+              "min": -787.803466796875,
+              "max": 608.3561401367188,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 19,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608616597741275,
+              "std": 406.59342163796697,
+              "min": -660.5081787109375,
+              "max": 947.9578247070312,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 20,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608618307638646,
+              "std": 263.9112742384412,
+              "min": -608.6798095703125,
+              "max": 516.9210205078125,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 21,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617875999092,
+              "std": 279.623606045064,
+              "min": -591.9021606445312,
+              "max": 595.3052978515625,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 22,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617122472651,
+              "std": 156.57713163732296,
+              "min": -391.2945251464844,
+              "max": 238.92254638671875,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 23,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617867770287,
+              "std": 171.45131203640406,
+              "min": -415.22314453125,
+              "max": 311.95977783203125,
+              "key_phase_error": "SEL 键相点顺序无效"
+            },
+            {
+              "channel": 24,
+              "count": 30720,
+              "duration_s": 30.0,
+              "mean": 0.6608617369255626,
+              "std": 390.6373972941821,
+              "min": -886.2295532226562,
+              "max": 690.9798583984375,
+              "key_phase_error": "SEL 键相点顺序无效"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "file": "测试系统实例\\电厂变负荷.SEL",
+      "sha256": "0c944e6ed36b5acb6e6e22b83961dbd3761872dd06b440b819d90800108bdfa9",
+      "exam": "机组试验",
+      "key_index": 15,
+      "velocity_index": 0,
+      "channels": [
+        {
+          "index": 0,
+          "id": 0,
+          "name": "上导摆度X",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 1,
+          "id": 1,
+          "name": "上导摆度Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 2,
+          "id": 2,
+          "name": "下导摆度X",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 3,
+          "id": 3,
+          "name": "下导摆度Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 4,
+          "id": 4,
+          "name": "水导摆度X",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 5,
+          "id": 5,
+          "name": "水导摆度Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 6,
+          "id": 6,
+          "name": "上机架径向振动Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 7,
+          "id": 7,
+          "name": "下机架径向振动Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 8,
+          "id": 8,
+          "name": "下机架径向振动y（涡流）",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 9,
+          "id": 9,
+          "name": "上机架轴向振动Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 10,
+          "id": 10,
+          "name": "下机架轴向振动Y",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 11,
+          "id": 11,
+          "name": "顶盖轴向振动X",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 12,
+          "id": 12,
+          "name": "键相波形",
+          "unit": "um",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 13,
+          "id": 13,
+          "name": "有功",
+          "unit": "MW",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 14,
+          "id": 14,
+          "name": "转速",
+          "unit": "转速",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        },
+        {
+          "index": 15,
+          "id": 15,
+          "name": "键相",
+          "unit": "键相",
+          "sample_rate": 1024,
+          "fft_enabled": true,
+          "divisor": 1,
+          "a": 0.0,
+          "b": 0.0
+        }
+      ],
+      "conditions": [
+        {
+          "index": 0,
+          "type": "变负荷",
+          "name": "有功(  0.13MW)",
+          "sort_code": 0,
+          "begin_timestamp": 1336437254,
+          "end_timestamp": 1336437288,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 258.06394528553767,
+              "std": 115.09710122175994,
+              "min": 62.65459442138672,
+              "max": 549.0906372070312,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 1,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -51.82274989109416,
+              "std": 107.88500933574582,
+              "min": -199.84735107421875,
+              "max": 325.3215637207031,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 2,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 3115.715936892173,
+              "std": 151.68519342208316,
+              "min": 2774.324462890625,
+              "max": 3387.982666015625,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 3,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 2210.017404335387,
+              "std": 129.04605376696304,
+              "min": 1836.488525390625,
+              "max": 2470.867919921875,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 4,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 2010.4260966672616,
+              "std": 21.012662974444712,
+              "min": 1945.206298828125,
+              "max": 2093.069091796875,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 5,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 2489.2521446031683,
+              "std": 20.16101786138713,
+              "min": 2428.597900390625,
+              "max": 2555.901611328125,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 6,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -394.9323244191268,
+              "std": 0.33171648888337113,
+              "min": -396.5546875,
+              "max": -393.5283508300781,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 7,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -1033.6763653912965,
+              "std": 28.463481397430147,
+              "min": -1119.4517822265625,
+              "max": -918.2667846679688,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 8,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 2686.92695888351,
+              "std": 9.41195766412213,
+              "min": 2649.48779296875,
+              "max": 2720.541259765625,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 9,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -1025.2420369369142,
+              "std": 4.127847623838104,
+              "min": -1042.477783203125,
+              "max": -1008.0039672851562,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 10,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -1025.223392095636,
+              "std": 20.77431401620271,
+              "min": -1105.7674560546875,
+              "max": -936.0299682617188,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 11,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -75.07049948069567,
+              "std": 102.87466019136725,
+              "min": -456.1750793457031,
+              "max": 450.6756591796875,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 12,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": -10.414301365449587,
+              "std": 0.4722292668658364,
+              "min": -10.45793342590332,
+              "max": -3.145341634750366,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 13,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 0.12728029602456392,
+              "std": 0.0996754880135326,
+              "min": -0.3690565228462219,
+              "max": 0.6441027522087097,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 14,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 157.7498254215016,
+              "std": 3.510378741358765,
+              "min": 144.56471252441406,
+              "max": 164.93959045410156,
+              "key_phase_count": 90
+            },
+            {
+              "channel": 15,
+              "count": 34816,
+              "duration_s": 34.0,
+              "mean": 1.648581112132353,
+              "std": 34.785114286874375,
+              "min": 0.0,
+              "max": 1014.0,
+              "key_phase_count": 90
+            }
+          ]
+        },
+        {
+          "index": 1,
+          "type": "变负荷",
+          "name": "有功(  7.32MW)",
+          "sort_code": 1,
+          "begin_timestamp": 1336437456,
+          "end_timestamp": 1336437516,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 252.73074572098753,
+              "std": 103.0325918354729,
+              "min": 81.40475463867188,
+              "max": 479.84637451171875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -93.79374329409511,
+              "std": 55.238439770258886,
+              "min": -203.1368408203125,
+              "max": 41.19060134887695,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3134.4180547475817,
+              "std": 143.1203361421094,
+              "min": 2817.088134765625,
+              "max": 3369.89013671875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2244.5630055805045,
+              "std": 97.01746437169393,
+              "min": 2003.75927734375,
+              "max": 2439.124267578125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2011.9350958188375,
+              "std": 19.476106904948622,
+              "min": 1951.94970703125,
+              "max": 2085.3388671875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2493.416783289115,
+              "std": 18.59640441213248,
+              "min": 2421.8544921875,
+              "max": 2573.664794921875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -395.2045793433984,
+              "std": 0.33232612534510975,
+              "min": -396.5546875,
+              "max": -393.79150390625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.0944658229748,
+              "std": 21.446273258574635,
+              "min": -1118.399169921875,
+              "max": -958.2669067382812,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2690.459170444806,
+              "std": 8.332010778087545,
+              "min": 2660.5078125,
+              "max": 2720.212158203125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.1913721203805,
+              "std": 4.001953761575692,
+              "min": -1040.240966796875,
+              "max": -1009.5828857421875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.4205188184976,
+              "std": 18.042804967684315,
+              "min": -1095.2410888671875,
+              "max": -958.66162109375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -74.67001644720321,
+              "std": 124.73237074000569,
+              "min": -489.4649658203125,
+              "max": 426.3333740234375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.414637509679112,
+              "std": 0.47003365931657654,
+              "min": -10.45793342590332,
+              "max": -3.1407363414764404,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 7.300901358334037,
+              "std": 0.25320456814328385,
+              "min": 6.433584690093994,
+              "max": 8.260890007019043,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.86576232910156,
+              "std": 0.12319242429435096,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.6779459635416667,
+              "std": 35.23417579322397,
+              "min": 0.0,
+              "max": 1023.0,
+              "key_phase_count": 158
+            }
+          ]
+        },
+        {
+          "index": 2,
+          "type": "变负荷",
+          "name": "有功( 12.67MW)",
+          "sort_code": 2,
+          "begin_timestamp": 1336437670,
+          "end_timestamp": 1336437730,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 254.95613724353413,
+              "std": 97.80408502747358,
+              "min": 98.92135620117188,
+              "max": 434.6977844238281,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -93.46118426779664,
+              "std": 53.62001768957627,
+              "min": -191.3769073486328,
+              "max": 27.868122100830078,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3141.7616709073386,
+              "std": 137.5173528142079,
+              "min": 2870.049072265625,
+              "max": 3359.36376953125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2242.77490778168,
+              "std": 93.23657493021895,
+              "min": 2038.4635009765625,
+              "max": 2400.63720703125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2010.801681514581,
+              "std": 13.43952801535064,
+              "min": 1969.548583984375,
+              "max": 2061.81884765625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2494.6447383920354,
+              "std": 12.689031202720278,
+              "min": 2447.01904296875,
+              "max": 2539.947509765625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -395.62750906000537,
+              "std": 0.324916347635389,
+              "min": -397.08099365234375,
+              "max": -394.1862487792969,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.1379675467808,
+              "std": 11.965151239847923,
+              "min": -1068.267333984375,
+              "max": -1001.5565795898438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2691.2667107423144,
+              "std": 6.760562472375867,
+              "min": 2671.19873046875,
+              "max": 2713.46875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.094601883491,
+              "std": 3.3090606738279034,
+              "min": -1035.109375,
+              "max": -1013.5302734375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.3794505099456,
+              "std": 8.27394870275337,
+              "min": -1055.37255859375,
+              "max": -994.8460083007812,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -72.85747504189324,
+              "std": 68.48850698691213,
+              "min": -275.3835144042969,
+              "max": 141.725830078125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.414735986102217,
+              "std": 0.4695592834838113,
+              "min": -10.45793342590332,
+              "max": -3.1828417778015137,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 12.75586704951711,
+              "std": 0.4637513452849033,
+              "min": 11.408920288085938,
+              "max": 14.27652359008789,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.85561548868816,
+              "std": 0.11911854217151062,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.6573404947916666,
+              "std": 34.91299290229616,
+              "min": 0.0,
+              "max": 1023.0,
+              "key_phase_count": 158
+            }
+          ]
+        },
+        {
+          "index": 3,
+          "type": "变负荷",
+          "name": "有功( 19.50MW)",
+          "sort_code": 3,
+          "begin_timestamp": 1336437981,
+          "end_timestamp": 1336438041,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 281.89049619697033,
+              "std": 111.1009229942251,
+              "min": 108.04972076416016,
+              "max": 597.3643188476562,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -77.13116521295547,
+              "std": 63.59376143908938,
+              "min": -185.04461669921875,
+              "max": 118.57613372802734,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3119.6042518814406,
+              "std": 172.29655496437687,
+              "min": 2748.66650390625,
+              "max": 3409.035400390625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2203.0325528542203,
+              "std": 129.05428428776696,
+              "min": 1838.95556640625,
+              "max": 2413.630615234375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2020.2866665661336,
+              "std": 31.817420982214234,
+              "min": 1957.706298828125,
+              "max": 2095.042724609375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2493.7266307671866,
+              "std": 28.397308101205883,
+              "min": 2431.887451171875,
+              "max": 2563.79638671875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -396.13009956926106,
+              "std": 0.32831908071773613,
+              "min": -397.4757385253906,
+              "max": -394.8441467285156,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.061078581214,
+              "std": 20.74290110829108,
+              "min": -1084.320068359375,
+              "max": -990.372314453125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2699.575931461652,
+              "std": 12.100362926052464,
+              "min": 2664.61962890625,
+              "max": 2727.613525390625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.040734369556,
+              "std": 3.068799174492005,
+              "min": -1033.5303955078125,
+              "max": -1015.7671508789062,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.3116466403008,
+              "std": 16.1244594965932,
+              "min": -1070.767333984375,
+              "max": -980.8985595703125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -73.52327202665883,
+              "std": 38.06894608033714,
+              "min": -172.35610961914062,
+              "max": 44.35654067993164,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.414462562417611,
+              "std": 0.47120423023542424,
+              "min": -10.45826244354248,
+              "max": -3.095341205596924,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 19.461062609497457,
+              "std": 0.20936349352612346,
+              "min": 18.67291259765625,
+              "max": 20.228836059570312,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.90966669718424,
+              "std": 0.08410491564981717,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.6576985677083333,
+              "std": 34.909209825501776,
+              "min": 0.0,
+              "max": 1023.0,
+              "key_phase_count": 158
+            }
+          ]
+        },
+        {
+          "index": 4,
+          "type": "变负荷",
+          "name": "有功( 25.27MW)",
+          "sort_code": 4,
+          "begin_timestamp": 1336438321,
+          "end_timestamp": 1336438381,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 282.5016355911891,
+              "std": 108.45345448093089,
+              "min": 115.7800521850586,
+              "max": 546.62353515625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -82.8718462788003,
+              "std": 57.320626812637144,
+              "min": -188.66307067871094,
+              "max": 86.99691009521484,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3119.331174361706,
+              "std": 153.87013495856925,
+              "min": 2770.541748046875,
+              "max": 3368.574462890625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2218.6843232154847,
+              "std": 104.34839665975115,
+              "min": 1919.5482177734375,
+              "max": 2390.93310546875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2021.7795231322448,
+              "std": 24.05416825581615,
+              "min": 1974.9761962890625,
+              "max": 2089.2861328125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2496.3717155774434,
+              "std": 22.827104928782767,
+              "min": 2445.04541015625,
+              "max": 2558.039794921875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -396.53657197604576,
+              "std": 0.32699449423202304,
+              "min": -397.8704528808594,
+              "max": -395.1072998046875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.4041717161736,
+              "std": 14.075006183865638,
+              "min": -1067.0831298828125,
+              "max": -995.50390625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2696.6030630032224,
+              "std": 8.518159059893621,
+              "min": 2669.8828125,
+              "max": 2718.5673828125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1024.9657914916675,
+              "std": 3.1597674210033806,
+              "min": -1033.1356201171875,
+              "max": -1015.6355590820312,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.5082023392122,
+              "std": 24.695193333022484,
+              "min": -1108.00439453125,
+              "max": -940.766845703125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -73.42687816706584,
+              "std": 24.605038457196002,
+              "min": -143.67160034179688,
+              "max": 18.303668975830078,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.41463409384014,
+              "std": 0.4702698924458412,
+              "min": -10.45793342590332,
+              "max": -3.1404073238372803,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 25.281732774556925,
+              "std": 0.1690383705273018,
+              "min": 24.589040756225586,
+              "max": 25.909767150878906,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.84888356526693,
+              "std": 0.13572452328938767,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.64599609375,
+              "std": 34.73001861435018,
+              "min": 0.0,
+              "max": 1017.0,
+              "key_phase_count": 158
+            }
+          ]
+        },
+        {
+          "index": 5,
+          "type": "变负荷",
+          "name": "有功( 31.24MW)",
+          "sort_code": 5,
+          "begin_timestamp": 1336438488,
+          "end_timestamp": 1336438548,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 290.9878607455641,
+              "std": 109.10303903713455,
+              "min": 123.42814636230469,
+              "max": 481.2444152832031,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -86.30682706729613,
+              "std": 53.533750954099446,
+              "min": -189.156494140625,
+              "max": 33.46027374267578,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3107.5550502936044,
+              "std": 146.41691749635132,
+              "min": 2830.41064453125,
+              "max": 3320.87646484375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2231.0149628023305,
+              "std": 90.38475539430831,
+              "min": 2045.8648681640625,
+              "max": 2373.82763671875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2027.1404573718708,
+              "std": 12.473204749711964,
+              "min": 1995.0421142578125,
+              "max": 2073.003173828125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2489.603396097819,
+              "std": 11.37430288610584,
+              "min": 2454.091552734375,
+              "max": 2530.243408203125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -396.69188282390434,
+              "std": 0.3261330331456034,
+              "min": -398.1336364746094,
+              "max": -395.2388916015625,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.1030445118745,
+              "std": 11.903662887488702,
+              "min": -1062.0831298828125,
+              "max": -999.9776000976562,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2690.975401878357,
+              "std": 7.3193588262151605,
+              "min": 2667.415771484375,
+              "max": 2712.3173828125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1024.898663030068,
+              "std": 3.176436444472152,
+              "min": -1033.3988037109375,
+              "max": -1015.5039672851562,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1024.9965700854857,
+              "std": 30.727198647425794,
+              "min": -1121.03076171875,
+              "max": -909.450927734375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -73.3799185893576,
+              "std": 19.703200802373544,
+              "min": -133.80308532714844,
+              "max": -3.670222759246826,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.414622109589011,
+              "std": 0.47085360828212647,
+              "min": -10.45826244354248,
+              "max": -3.181196928024292,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 31.24228870238488,
+              "std": 0.13426419535859913,
+              "min": 30.749414443969727,
+              "max": 31.798757553100586,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.86577123006185,
+              "std": 0.1286114807363631,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.6796875,
+              "std": 35.26202103917084,
+              "min": 0.0,
+              "max": 1020.0,
+              "key_phase_count": 158
+            }
+          ]
+        },
+        {
+          "index": 6,
+          "type": "变负荷",
+          "name": "有功( 37.66MW)",
+          "sort_code": 6,
+          "begin_timestamp": 1336438788,
+          "end_timestamp": 1336438848,
+          "reference_channel_id": 13,
+          "channel_summary": [
+            {
+              "channel": 0,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 301.16094142049553,
+              "std": 106.37290329237858,
+              "min": 138.3953857421875,
+              "max": 473.43182373046875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 1,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -85.33641083831284,
+              "std": 52.696732823992754,
+              "min": -185.5380401611328,
+              "max": 30.170772552490234,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 2,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 3094.122275396188,
+              "std": 141.45194295928576,
+              "min": 2857.713623046875,
+              "max": 3294.06689453125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 3,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2222.5199461340903,
+              "std": 84.929700013441,
+              "min": 2067.904541015625,
+              "max": 2354.0908203125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 4,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2041.1168077866237,
+              "std": 10.340757429455685,
+              "min": 2014.1212158203125,
+              "max": 2077.9375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 5,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2493.2563488086066,
+              "std": 10.492763871855685,
+              "min": 2462.644287109375,
+              "max": 2531.88818359375,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 6,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -396.92289683024086,
+              "std": 0.31818814121370226,
+              "min": -398.26519775390625,
+              "max": -395.5020446777344,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 7,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1033.0858728677035,
+              "std": 10.332561728088436,
+              "min": -1054.977783203125,
+              "max": -1006.5565795898438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 8,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 2700.992905628681,
+              "std": 5.7917412839081095,
+              "min": 2685.8369140625,
+              "max": 2716.42919921875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 9,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1024.8658348977565,
+              "std": 3.0139651450519658,
+              "min": -1033.0040283203125,
+              "max": -1016.425048828125,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 10,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -1025.2951899627844,
+              "std": 11.156543643318985,
+              "min": -1063.39892578125,
+              "max": -979.451171875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 11,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -73.54312963802367,
+              "std": 11.180693913259464,
+              "min": -109.98705291748047,
+              "max": -33.01260757446289,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 12,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": -10.414606780050478,
+              "std": 0.47110999561946126,
+              "min": -10.45793342590332,
+              "max": -3.1854732036590576,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 13,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 37.65691703303407,
+              "std": 0.11694616987012119,
+              "min": 37.108802795410156,
+              "max": 38.176239013671875,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 14,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 157.8792973836263,
+              "std": 0.13069730702367607,
+              "min": 157.53846740722656,
+              "max": 157.94345092773438,
+              "key_phase_count": 158
+            },
+            {
+              "channel": 15,
+              "count": 61440,
+              "duration_s": 60.0,
+              "mean": 1.6531575520833333,
+              "std": 34.843100887880084,
+              "min": 0.0,
+              "max": 1016.0,
+              "key_phase_count": 158
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
